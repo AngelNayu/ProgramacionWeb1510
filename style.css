@@ -1,0 +1,24 @@
+#tituloIndex{
+    color: tomato;
+}
+p.texto{ /*el p y siguiendo el punto hace que las etiquetas de p que contengan la clase de
+     texto 
+    tendran el color, por ende se cambiaran texto 1 y texto 2*/
+    color:steelblue;
+}
+p.especial{
+    color: mediumseagreen;
+    
+}
+*{
+    color: black;
+}
+/*el orden en que apliquemos el codigo CSS, el ultimo tendra prioridad*/
+#fondo{
+    background-color:rgb(255, 235, 205)
+
+}
+h1{
+    background-color: rgba(240, 14, 14, 0.842);
+    opacity: 0.3;
+}
